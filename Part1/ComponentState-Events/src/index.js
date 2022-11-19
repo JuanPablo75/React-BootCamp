@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import OldApp from './OldApp';
+
 import reportWebVitals from './reportWebVitals';
-import Old2App from './Old2App';
-import App from './App'
+
+import CountersApp from './CountersApp';
+import OpinionCounter from './OpinionCounter';
+import ClickCounter from './ClickCounter';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Old2App />
+    <ClickCounter />
+    <OpinionCounter />
+    <CountersApp />
   </React.StrictMode>
 );
 
