@@ -1,4 +1,4 @@
-import "./App.css";
+
 import { Note } from "./Note.js";
 import { useEffect, useState } from "react";
 import React from "react";
